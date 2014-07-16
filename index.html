@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<title>Traffic Visualizer</title>
+<style>
+	html,
+	body,
+	canvas {
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+</style>
+<script src="/socket.io/socket.io.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.18/paper-full.min.js"></script>
+<script type="text/paperscript" src="visual.js" canvas="visual"></script>
+<canvas id="visual" resize></canvas>
