@@ -1,0 +1,32 @@
+{
+  "name": "traffic_visualizer",
+  "version": "0.0.0",
+  "description": "Visualizes spoofed network traffic",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "socket.io": "^1.0.6",
+    "express": "^4.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/traffic_visualizer.git"
+  },
+  "keywords": [
+    "traffic",
+    "visualizer",
+    "svg",
+    "canvas",
+    "animation"
+  ],
+  "author": "RangerMauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/traffic_visualizer/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/traffic_visualizer"
+}
